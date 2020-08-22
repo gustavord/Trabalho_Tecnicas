@@ -19,6 +19,10 @@ public class Veiculo {
 	public String getMarca() {
 		return marca;
 	}
+
+	public String getModelo(){
+		return modelo;
+	}
 	/*
 	 * Implementar getters e setters pra todos os atributos
 	 */
