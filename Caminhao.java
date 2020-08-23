@@ -9,15 +9,19 @@ public class Caminhao extends Veiculo{
 		this.rodas = rodas;
 		this.cap = cap;
 	}
-	
+	//finalizado gett e sett
 	public void setRodas(int rodas) {
 		this.rodas = rodas;
+	}
+	public void setCap(double cap) {
+		this.cap = cap;
 	}
 	public int getRodas() {
 		return rodas;
 	}
-	
-	//Implementar o resto dos getters e setters
+	public int getCap() {
+		return cap;
+	}
 	
 	public String toString() {
 		return super.toString()+rodas+" rodas \n"+"Carga maxima: "+cap;

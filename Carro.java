@@ -12,10 +12,17 @@ public class Carro extends Veiculo {
 	public void setCambio(String cambio) {
 		this.cambio = cambio;
 	}
+	public void setTracao(String tracao) {
+		this.tracao = tracao;
+	}
+	//finalizado gett e sett
 	public String getCambio() {
 		return cambio;
 	}
-	//Implementar o resto dos getters e setters
+	public void getTracao(String tracao) {
+		this.tracao = tracao;
+	}
+	
 	
 	public String toString() {
 		return super.toString()+cambio+"\n "+tracao;

@@ -14,12 +14,20 @@ public class Moto extends Veiculo {
 	public void setCil(int cil) {
 		this.cil = cil;
 	}
+
+	public void setCar(String car) {
+		this.car = car;
+	}
+	//finalizado gett e sett
 	public int getCil() {
 		return cil;
 	}
-	//Implementar o resto dos getters e setters
+
+	public int getCar() {
+		return car;
+	}
 	
-	public String toString() {
+		public String toString() {
 		return super.toString()+cil+" cilindradas \n"+car;
 	}
 }

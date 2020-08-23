@@ -15,6 +15,18 @@ public class Veiculo {
 	public void setMarca(String marca) {
 		this.marca = marca;
 	}
+
+	public void setKM(String km) {
+		this.km = km;
+	}
+
+	public void setPot(int pot) {
+		this.pot = pot;
+	}
+
+	public void setModelo(String modelo){
+		this.modelo = modelo;
+	}
 	
 	public String getMarca() {
 		return marca;
@@ -23,9 +35,16 @@ public class Veiculo {
 	public String getModelo(){
 		return modelo;
 	}
-	/*
-	 * Implementar getters e setters pra todos os atributos
-	 */
+	
+	public double getKm(){
+		return km;
+	}
+
+	public int getPot(){
+		return modelo;
+	}
+	//finalizado gett e sett
+
 	
 	public String toString() {
 		return marca+" "+modelo+"\n Quilometragem: "+km+"\n Potencia: "+pot+" cavalos \n";
